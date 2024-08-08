@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif; 
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; 
+}
+
+.logout-window {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05); 
+  padding: 30px;
+  text-align: center;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 999; /* Ensure it appears above other elements */
+  width: 400px; /* Adjust width as needed */
+  max-width: 80%; /* Responsive behavior for smaller screens */
+  color: #3498db; 
+  font-family: Arial, sans-serif; 
+}
+
+.logout-window h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.logout-window p {
+  color: #000; 
+}
+
+.logout-window button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2ECC71; 
+  color: #fff; 
+  margin-top: 10px;
+}
+
+.logout-window button a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+.logout-window button:hover {
+  opacity: 0.8;
+}
+
